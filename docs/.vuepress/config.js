@@ -1,5 +1,5 @@
 module.exports = {
-  base: '/ts-axios/',
+  base: './',
   dest: 'dist',
   title: 'TypeScript 从零实现 axios',
   description: '学习使用 TypeScript 从零实现 axios 库',
@@ -14,8 +14,8 @@ module.exports = {
         children: [
           ['chapter1/', 'Introduction'],
           'chapter1/install',
-          'chapter1/start'
-        ]
+          'chapter1/start',
+        ],
       },
       {
         title: 'TypeScript 常用语法',
@@ -28,20 +28,16 @@ module.exports = {
           'chapter2/function',
           'chapter2/generic',
           'chapter2/inference',
-          'chapter2/advance'
-        ]
+          'chapter2/advance',
+        ],
       },
       {
-        'title': 'ts-axios 项目初始化',
+        title: 'ts-axios 项目初始化',
         collapsable: false,
-        children: [
-          'chapter3/require',
-          'chapter3/init',
-          'chapter3/base'
-        ]
+        children: ['chapter3/require', 'chapter3/init', 'chapter3/base'],
       },
       {
-        'title': 'ts-axios 基础功能实现',
+        title: 'ts-axios 基础功能实现',
         collapsable: false,
         children: [
           'chapter4/url',
@@ -49,51 +45,36 @@ module.exports = {
           'chapter4/header',
           'chapter4/response',
           'chapter4/response-header',
-          'chapter4/response-data'
-        ]
+          'chapter4/response-data',
+        ],
       },
       {
-        'title': 'ts-axios 异常情况处理',
+        title: 'ts-axios 异常情况处理',
         collapsable: false,
-        children: [
-          'chapter5/error',
-          'chapter5/enhance'
-        ]
+        children: ['chapter5/error', 'chapter5/enhance'],
       },
       {
-        'title': 'ts-axios 接口扩展',
+        title: 'ts-axios 接口扩展',
         collapsable: false,
-        children: [
-          'chapter6/extend',
-          'chapter6/overload',
-          'chapter6/generic'
-        ]
+        children: ['chapter6/extend', 'chapter6/overload', 'chapter6/generic'],
       },
       {
-        'title': 'ts-axios 拦截器实现',
+        title: 'ts-axios 拦截器实现',
         collapsable: false,
-        children: [
-          'chapter7/interceptor'
-        ]
+        children: ['chapter7/interceptor'],
       },
       {
-        'title': 'ts-axios 配置化实现',
+        title: 'ts-axios 配置化实现',
         collapsable: false,
-        children: [
-          'chapter8/merge',
-          'chapter8/transform',
-          'chapter8/create'
-        ]
+        children: ['chapter8/merge', 'chapter8/transform', 'chapter8/create'],
       },
       {
-        'title': 'ts-axios 取消功能实现',
+        title: 'ts-axios 取消功能实现',
         collapsable: false,
-        children: [
-          'chapter9/cancel'
-        ]
+        children: ['chapter9/cancel'],
       },
       {
-        'title': 'ts-axios 更多功能实现',
+        title: 'ts-axios 更多功能实现',
         collapsable: false,
         children: [
           'chapter10/withCredentials',
@@ -103,11 +84,11 @@ module.exports = {
           'chapter10/validateStatus',
           'chapter10/paramsSerializer',
           'chapter10/baseURL',
-          'chapter10/static'
-        ]
+          'chapter10/static',
+        ],
       },
       {
-        'title': 'ts-axios 单元测试',
+        title: 'ts-axios 单元测试',
         collapsable: false,
         children: [
           'chapter11/preface',
@@ -119,9 +100,9 @@ module.exports = {
           'chapter11/interceptor',
           'chapter11/mergeConfig',
           'chapter11/cancel',
-          'chapter11/more'
-        ]
-      }
-    ]
-  }
+          'chapter11/more',
+        ],
+      },
+    ],
+  },
 }
